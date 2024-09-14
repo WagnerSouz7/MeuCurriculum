@@ -1,0 +1,61 @@
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 10px solid #4e0155ce;
+}
+body{
+    background-color: #775088ce;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar {
+    height: 100vh; /* Altura total da viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color:#35013ace;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar img {
+    width: 100%; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.sidebar a {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar a:hover {
+    background-color: #7b0086ce;
+    
+}
+.content {
+    margin-left: 270px; 
+    padding: 20px;
+}
+.sidebar a i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; 
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.espaco{
+    margin-bottom: 5px;
+}
+ul{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+li{
+    font-style: italic;
+}
